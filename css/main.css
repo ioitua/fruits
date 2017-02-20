@@ -1,0 +1,117 @@
+html {
+  font: 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #212121;
+}
+
+@media (min-width: 960px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Headings */
+
+h1, h2, h3 {
+  margin: 0 0 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+
+/* Text */
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+
+/* Links */
+
+a {
+  color: #558b2f;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #33691e;
+  text-decoration: underline;
+}
+
+
+/* Sections */
+
+section,
+.section {
+  margin-bottom: 3rem;
+}
+
+
+/* Containers */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 960px;
+}
+
+@media (min-width: 960px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+
+/* Header */
+
+header {
+  padding: 9rem 0 1.5rem;
+  margin-bottom: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.title,
+.subtitle {
+  margin-right: 50%;
+}
+
+.title {
+  padding-top: .75rem;
+  margin-bottom: .75rem;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.subtitle {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+
+/* Footer */
+
+footer {
+  padding-bottom: 1.5rem;
+  font-size: .8rem;
+  line-height: 1.875;
+  color: #757575;
+  text-align: center;
+}
